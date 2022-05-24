@@ -1,0 +1,128 @@
+/*
+TOOLBAR CSS
+*/
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(253, 253, 253);
+    position: fixed;
+    width: 90vw;
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 25px;
+    margin-top: 2vh;
+  }
+  
+  .topnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 1.8vw;
+    margin-left: 20px;
+    background-color: rgb(253, 253, 253);
+    color: gray
+  }
+
+  .topnav img{
+      height: 7vh;
+      float: left;
+      padding: 10px 20px;
+      margin-left: 20px;
+      background-color: rgb(253, 253, 253);
+      color: gray
+  }
+  
+  .topnav a:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes background-color {
+    100% {
+      color: black;
+    }
+  }
+  
+  .topnav a.active {
+    background-color: #04aa6d;
+    color: white;
+  }
+
+  /*
+  Body
+  */
+  
+  .strip {
+      width: 100vw;
+      height: 30vh;
+      background-color: rgb(9, 9, 100);
+  }
+
+  .strip p {
+      color: white;
+      text-align: center;
+      padding-top: 20vh;
+  }
+
+  .header {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(106, 180, 209);
+    padding-top: 12vh;
+  }
+
+  .about{
+      width: 50vw;
+      float: left;
+  }
+
+  .side{
+      width: 50vw;
+      height: 70vh;
+      float: left;
+      
+  }
+
+  .about h1 {
+      margin-top: 0px;
+      color: rgb(10, 59, 92);
+      margin-left: 10vw;
+      padding-top: 10vh;
+      font-size: 5vw;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  .about p {
+    color: saddlebrown;
+    margin-left: 6vw;
+    padding-top: 3vh;
+    font-size: 1.5vw;
+    font-family:sans-serif;
+  }
+
+  .side img {
+      width: 10vw;
+      margin-top: 5vh;
+      margin-left: 5vw;
+  }
+
+  /*
+  BLURB
+  */
+
+.blurb {
+    width: 100vw;
+    height: 70vh;
+    background-color: beige;
+
+}
+ 
+
