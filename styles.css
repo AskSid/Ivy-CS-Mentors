@@ -196,8 +196,8 @@ body {
 }
 
 .container .card .face{
-  width:20vw;
-  height: 26vh;
+  width:300px;
+  height: 200px;
   transition:.4s;
   
 }
