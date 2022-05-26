@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "Ivy-CS-Mentors",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
