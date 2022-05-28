@@ -123,5 +123,29 @@
               </div>
           </div>
       </div>
+
+      <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+  
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDGO-IHkuuW66D1N_bGX4AN8U-JzQLpYpA",
+          authDomain: "ivy-cs-mentors.firebaseapp.com",
+          projectId: "ivy-cs-mentors",
+          storageBucket: "ivy-cs-mentors.appspot.com",
+          messagingSenderId: "289088570424",
+          appId: "1:289088570424:web:5942f557c36ea83998d2cd",
+          measurementId: "G-DK7QX6R828",
+        };
+  
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
