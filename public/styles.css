@@ -383,6 +383,8 @@ SIGN UP
   width: 20%;
   height: 100%;
   text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .register p {
