@@ -9,7 +9,6 @@ body {
   background: rgb(3, 8, 34);
   
 }
-
 .topnav {
   overflow: hidden;
   width: 90vw;
@@ -507,7 +506,7 @@ CONTACT INFO
 
 .contact-info {
     width: 100vw;
-    height: 50vh;
+    height: 30vh;
 }
 
 .contact-info h2 {
