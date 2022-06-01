@@ -1,13 +1,10 @@
 /*
 TOOLBAR CSS
 */
-
-
 body {
   margin: 0;
   font-family: "Space Mono";
   background: rgb(3, 8, 34);
-  
 }
 
 .topnav {
@@ -56,9 +53,7 @@ body {
   color: white;
 }
 
-/*
-  Body
-  */
+/*///////////////////////////////////////////Body////////////////////////////////////////////////*/
 
 .header {
   width: 100vw;
@@ -509,7 +504,7 @@ CONTACT INFO
 
 .contact-info {
     width: 100vw;
-    height: 50vh;
+    height: 30vh;
 }
 
 .contact-info h2 {
@@ -612,6 +607,7 @@ CONTACT INFO
   text-align: center;
   font-size: 1vmax;
 }
+
 /*/////////////////////////////// ABOUT US ////////////////////////////////////////////////////////////*/
 
 .biography {
@@ -705,10 +701,8 @@ CONTACT INFO
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
-
-
-
 /*/////////////////////////////// ANIMATION ////////////////////////////////////////////////////////////*/
+
   .backg{
     position:relative;
     height:500px;
