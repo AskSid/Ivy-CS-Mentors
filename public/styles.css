@@ -618,12 +618,18 @@ CONTACT INFO
 
 .biography h2 {
   color:white;
+
   font-size: 4vmax;
-  margin-left: 10vw;
+  text-align: center;
   margin-top: 10vh;
   font-family: 'Space Mono', monospace;
 }
 
+.biography h3 {
+  color: white;
+  text-align: center;
+  font-size: 2vmax;
+}
 .person-container {
   display:inherit;
   grid-column-gap: 10vh;
@@ -672,9 +678,8 @@ CONTACT INFO
   border-style: solid;
   margin: auto;
   text-align: center;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
   margin-top: 5vh;
+  padding: 5vh 2vh 5vh 2vh;
   width: 40vmax;
 }
 
