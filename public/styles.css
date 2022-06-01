@@ -506,9 +506,9 @@ CONTACT INFO
 .contact-info h2 {
     color:white;
     font-size: 4vw;
-    margin-left: 10vw;
     margin-top: 10vh;
     font-family: 'Space Mono', monospace;
+    text-align: center;
 }
 
 .contact-box {
@@ -518,6 +518,8 @@ CONTACT INFO
     border-width: 2px;
     border-color: white;
     border-style: solid;
+    text-align: center;
+    
 }
 
 .contact-box:hover {
@@ -535,9 +537,8 @@ CONTACT INFO
     }
   }
 
-.contact-box p {
+.contact-box a {
   color: white;
-  text-align: center;
   font-size: 4min;
 }
 /*/////////////////////////////// CURRICULUM ////////////////////////////////////////////////////////////*/
