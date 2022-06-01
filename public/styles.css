@@ -353,7 +353,7 @@ SIGN UP
   padding-right: 5%;
 }
 
-.sign-up p {
+.sign-up p{
   color: white;
   text-align: center;
   margin-top: 3vh;
@@ -378,13 +378,9 @@ SIGN UP
 .register {
   width: 30%;
   height: 100%;
-  text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-}
-
-.register p {
-    margin-bottom: 20%;
+  text-align: center;
 }
 
 .register-btn {
@@ -392,11 +388,11 @@ SIGN UP
   background-color: red;
   box-shadow: 0 5px 0 darkred;
   color: white;
-  padding: 0.7vmin 1vmin;
   padding: 1.5vmin 1vmin;
   text-decoration: none;
   border-radius: 5%;
   border-width: 1px;
+  margin-top: 3vh;
 }
 
 .register-btn:hover {
@@ -405,7 +401,6 @@ SIGN UP
 
 register-btn:active {
   box-shadow: none;
-  top: 5px;
 }
 
 /*
