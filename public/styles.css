@@ -5,6 +5,8 @@ body {
   margin: 0;
   font-family: "Space Mono";
   background: rgb(3, 8, 34);
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .topnav {
@@ -59,7 +61,6 @@ body {
   width: 100vw;
   height: 70vh;
   background: rgb(3, 8, 34);
-  padding-top: 10vh;
 }
 
 @keyframes easeZoom {
@@ -356,12 +357,12 @@ SIGN UP
   color: white;
   text-align: center;
   margin-top: 3vh;
-  font-size: 1.5vmin;
+  font-size: 2vmin;
   font-family: 'Space Mono', monospace;
 }
 
 .date {
-  width: 25%;
+  width: 15%;
   height: 100%;
   padding-left: 5%;
   padding-right: 5%;
@@ -375,7 +376,7 @@ SIGN UP
 }
 
 .register {
-  width: 20%;
+  width: 30%;
   height: 100%;
   text-align: center;
   padding-left: 5%;
@@ -504,7 +505,7 @@ CONTACT INFO
 
 .contact-info {
     width: 100vw;
-    height: 30vh;
+    height: 40vh;
 }
 
 .contact-info h2 {
@@ -517,7 +518,6 @@ CONTACT INFO
 
 .contact-box {
     width: 80vw;
-    height: 50%;
     margin-left:10vw;
     border-radius: 15%;
     border-width: 2px;
@@ -1550,3 +1550,22 @@ ul.solarsystem li.pluto {-webkit-animation-duration:120s; -moz-animation-duratio
 @-moz-keyframes moon { from { -moz-transform:rotate(0deg) } to { -moz-transform:rotate(360deg) } }
 
 /*ul.solarsystem:hover li {-webkit-animation-play-state: paused;} */
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(174, 0, 255);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
