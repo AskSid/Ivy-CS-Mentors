@@ -31,11 +31,14 @@ body {
 }
 
 .topnav img {
-  height: 10vw;
+  height: 6vw;
   float: left;
-  padding: 10px 20px;
   margin-left: 2vw;
   color: gray;
+  border-radius: 10%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(214, 214, 214);
 }
 
 .topnav a:hover {
@@ -61,6 +64,7 @@ body {
   width: 100vw;
   height: 70vh;
   background: rgb(3, 8, 34);
+  margin-top: 15vh;
 }
 
 @keyframes easeZoom {
@@ -519,6 +523,8 @@ CONTACT INFO
     border-color: white;
     border-style: solid;
     text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     
 }
 
@@ -600,7 +606,7 @@ CONTACT INFO
 .day p {
   color: white;
   text-align: center;
-  font-size: 2vmin;
+  font-size: 1vmax;
 }
 
 /*/////////////////////////////// ABOUT US ////////////////////////////////////////////////////////////*/
