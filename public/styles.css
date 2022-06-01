@@ -559,7 +559,6 @@ CONTACT INFO
 
 .agenda {
   width: 70vw;
-  height: 100vmax;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   margin-left: auto;
@@ -601,7 +600,7 @@ CONTACT INFO
 .day p {
   color: white;
   text-align: center;
-  font-size: 1vmax;
+  font-size: 2vmin;
 }
 
 /*/////////////////////////////// ABOUT US ////////////////////////////////////////////////////////////*/
