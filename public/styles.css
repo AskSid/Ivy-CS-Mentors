@@ -505,7 +505,7 @@ CONTACT INFO
 
 .contact-info {
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
 }
 
 .contact-info h2 {
@@ -1553,11 +1553,6 @@ ul.solarsystem li.pluto {-webkit-animation-duration:120s; -moz-animation-duratio
 
 ::-webkit-scrollbar {
   width: 2px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #ffffff;
 }
 
 /* Handle */
