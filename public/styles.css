@@ -609,6 +609,23 @@ CONTACT INFO
   font-size: 1vmax;
 }
 
+.day ul {
+  color: white;
+  justify-content: center;
+}
+
+.day li {
+  color: white;
+  text-align: center;
+  font-size: 1vmax;
+}
+
+.day h4 {
+  color: white;
+  text-align: center;
+  font-size: 1.2vmax;
+}
+
 /*/////////////////////////////// ABOUT US ////////////////////////////////////////////////////////////*/
 
 .biography {
