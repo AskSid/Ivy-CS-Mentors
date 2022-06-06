@@ -108,7 +108,7 @@ body {
   text-align: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1200px) {
   .about {
     width: 100vw;
     margin-left: 0;
@@ -353,37 +353,44 @@ SIGN UP
 .name {
   width: 20%;
   height: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .sign-up p{
   color: white;
   text-align: center;
   margin-top: 3vh;
-  font-size: 2vmin;
+  font-size: 1.8vmin;
   font-family: 'Space Mono', monospace;
 }
 
 .date {
   width: 15%;
   height: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.location {
+  width: 15%;
+  height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .description {
-  width: 35%;
+  width: 40%;
   height: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .register {
-  width: 30%;
+  width: 25%;
   height: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
   text-align: center;
 }
 
