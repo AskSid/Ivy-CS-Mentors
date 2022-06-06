@@ -626,7 +626,7 @@ CONTACT INFO
 }
 
 .biography h3 {
-  color: rgb(255, 45, 45);
+  color: rgb(45, 255, 90);
   text-align: center;
   font-size: 2vmax;
 }
@@ -659,8 +659,8 @@ CONTACT INFO
   0% {
   }
   100% {
-    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 10px #ce2e56, 0 0 20px #ca0b44,
-      0 0 30px #e74c73, 0 0 40px #ec6073;
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 10px #2ece51, 0 0 20px #0bca1b,
+      0 0 30px #4ce754, 0 0 40px #60ec73;
   }
 }
 
