@@ -301,7 +301,16 @@ SIGN UP
   font-family: 'Space Mono', monospace;
   text-shadow: rgba(255, 253, 250, 0.9) 0px 0px 39px;
   text-align: center;
-  
+}
+
+.sign-up h4 {
+  color: rgb(255, 255, 255);
+  margin-top: 0;
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Space Mono', monospace;
+  text-shadow: rgba(255, 253, 250, 0.9) 0px 0px 39px;
+  text-align: center;
 }
 
 .chart {
