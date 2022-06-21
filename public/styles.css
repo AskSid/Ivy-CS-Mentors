@@ -36,7 +36,7 @@ body {
   margin-left: 2vw;
   color: gray;
   border-radius: 10%;
-  border-width: 1px;
+  border-width: 4px;
   border-style: solid;
   border-color: rgb(214, 214, 214);
 }
@@ -62,7 +62,6 @@ body {
 
 .header {
   width: 100vw;
-  height: 70vh;
   background: rgb(3, 8, 34);
   margin-top: 15vh;
 }
@@ -122,8 +121,8 @@ body {
   .about h1 {
     font-size: 14vmin;
     text-align: center;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
   }
 
   .backg {
@@ -133,28 +132,16 @@ body {
   .about p {
     text-align: center;
     font-size: 6vmin;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
-  .container {
-    display: flex;
-    margin-top: 10vh;
-  }
-
-  .card {
-    margin: auto;
-    margin-top: 10vh;
-  }
-
-  .container .card .face {
-    width: 300px;
-    height: 200px;
-    transition: 0.4s;
+  .header {
+    margin-bottom: 100vh;
   }
 
   .sign-up {
-    margin-top: 150vh;
+    margin-top: 10vh;
   }
 
   .planet {
@@ -290,12 +277,10 @@ SIGN UP
 .sign-up {
   background: rgb(3, 8, 34);
   width: 100vw;
-  height: 120vh;
 }
 
 .sign-up h2 {
   color: rgb(255, 255, 255);
-  margin-top: 0;
   text-align: center;
   font-size: 5vw;
   font-family: 'Space Mono', monospace;
@@ -305,7 +290,6 @@ SIGN UP
 
 .sign-up h4 {
   color: rgb(255, 255, 255);
-  margin-top: 0;
   text-align: center;
   font-size: 3vw;
   font-family: 'Space Mono', monospace;
