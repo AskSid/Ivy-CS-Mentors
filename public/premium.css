@@ -59,18 +59,29 @@ h2 {
     background-color: rgb(204, 132, 114);
 }
 
-.sign-up-container {
-    padding-top: 5vh;
+.col-sm-10 {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-
 .sign-up {
+    width: 50%;
     background-color: white;
     margin-bottom: 10vh;
     font-family: 'Nunito', sans-serif;
-    padding: 5% 5% 5% 5%;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
+.sign-up h2 {
+    margin-bottom: 10%;
+}
+
+.sign-up p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
