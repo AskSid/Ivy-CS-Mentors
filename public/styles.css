@@ -399,6 +399,16 @@ SIGN UP
   margin-top: 3vh;
 }
 
+.other-btn {
+  background-color: #c5adda;
+  color: white;
+  padding: 1.5vmin 1vmin;
+  text-decoration: none;
+  border-radius: 5%;
+  border-width: 1px;
+  margin-top: 3vh;
+}
+
 .register-btn:hover {
   background-color: #ce0606;
 }
