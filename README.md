@@ -1,2 +1,2 @@
 # Ivy-CS-Mentors
-something-something-cs-stuff
+Website for finding future classes and payment system.
